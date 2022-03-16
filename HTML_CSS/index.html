@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="shortcut icon" type="image/png" href="img/PI.jpg">-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Task Management</title>
+</head>
+<body>
+    <header>
+
+        <div class="menu btn2">
+          <div class="icon"></div>
+        </div>
+
+
+        <h1 class="title">Task Management</h1>
+    </header>
+
+    <nav class="menu-bar">
+        <a href="#" class="link circle">Home</a>
+        <a href="#" class="link circle">New Task</a>
+        <a href="#" class="link circle">Dashboard</a>
+    </nav>
+
+
+
+    <!-- Changable (Table, Form, and Dashboard)-->
+    <main>
+        
+        <section class="table-container">
+            <table>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td><a href="#" class="btn">Edit</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+              <tr>
+                <td colspan="7"></td>
+              </tr>
+            </table>
+        </section> 
+      
+        <!-- 
+        <section class="task-form">
+          <form action="#">
+            <fieldset>
+              <legend>Task Form</legend>
+
+              <div class="form__title">
+                <input type="text" class="form__field" placeholder="Title" name="title" id="title"/>
+                <label for="title" class="form__label">Title</label>
+              </div>
+  
+              <div class="form__reminder">
+                <input type="checkbox" id="reminder" name="reminder" value="Reminder">
+                <label class="reminder__label" for="reminder">Reminder</label>
+                <span class="reminder__info">
+                  Sending you an email to remind you of the appointment. 
+                </span>
+              </div>
+  
+              <div class="form__description">
+                <label class="description__title" for="description">Description</label>
+                <textarea class="description__field" name="description"></textarea> 
+              </div>
+
+
+              <div class="form__date">
+                <label class="date__title" for="date">Operation Date</label>
+                <input type="date" name="date" value="2017-06-01"><br>
+              </div>
+
+              <input class="btn margin-2 submit" type="submit" value="Submit">
+            </fieldset>
+
+          </form>
+        </section>
+      -->
+
+
+    </main>
+
+    <footer>
+        <p class="notice">© Copyright 2022 by Moustafa Ramadan. Feel free to use this project for your own business.</p>
+    </footer>
+    
+
+</body>
+</html>
+
+<script>
+  $('.menu').click (function(){
+  $(this).toggleClass('open');
+  $('.menu-bar').toggleClass('active-menu');
+  });
+
+</script>
